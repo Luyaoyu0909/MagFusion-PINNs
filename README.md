@@ -1,13 +1,11 @@
 # MagFusion-PINNs
 
----
-
 # Data and Code to reproduce the results in the manuscript:
 
 **Multi-source Marine Magnetic Vector Data Fusion Method Based on Physics-Informed Neural Networks**
 
 Yaoyu Lu¹, Longwei Chen²\*, Leyuan Wu³\*, Chieh-Hung Chen⁴, Philip W. Livermore⁵, Sjoerd de Ridder⁵, Thomas D. Sandnes⁵
-
+---
 This project fuses airborne and shipborne (marine) magnetic vector observations into a  consistent 3D magnetic vector field by learning the magnetic scalar potential **U** with a  PINNs: the network output is the potential, and the magnetic field components are obtained  as its spatial gradients, **B = ∇U**, so that the predicted field is constrained to be  curl-free and to satisfy Laplace's equation in the source-free region.
 
 Classical interpolation/fusion baselines are provided for comparison:  **RBF**, **Least Squares Collocation (LSC)**, **Dual-layer Equivalent Sources (ESM)** and  **scatteredInterpolant (SDI)**.
