@@ -8,7 +8,7 @@ Yaoyu Lu¹, Longwei Chen²\*, Leyuan Wu³\*, Chieh-Hung Chen⁴, Philip W. Liver
 ---
 This project fuses airborne and shipborne (marine) magnetic vector observations into a  consistent 3D magnetic vector field by learning the magnetic scalar potential **U** with a  PINNs: the network output is the potential, and the magnetic field components are obtained  as its spatial gradients, **B = ∇U**, so that the predicted field is constrained to be  curl-free and to satisfy Laplace's equation in the source-free region.
 
-Classical interpolation/fusion baselines are provided for comparison:  **RBF**, **Least Squares Collocation (LSC)**, **Dual-layer Equivalent Sources (ESM)** and  **scatteredInterpolant (SDI)**.
+Classical interpolation/fusion baselines are provided for comparison:  **Radial Basis Function (RBF)**, **Least Squares Collocation (LSC)**, **Dual-layer Equivalent Sources (ESM)** and  **scatteredInterpolant (SDI)**.
 
 ## Method Overview
 
