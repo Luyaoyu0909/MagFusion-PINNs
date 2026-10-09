@@ -26,7 +26,7 @@ Classical interpolation/fusion baselines are provided for comparison:  **Radial 
 
 ## Requirements
 
-**Python** (3.9+ recommended)
+**Python** (3.12+ recommended)
 
 ```
 tensorflow >= 2.x
@@ -37,7 +37,7 @@ matplotlib
 harmonica
 ```
 
-**MATLAB** (R2021a or later, for the figure scripts: uses `readmatrix` and `tiledlayout`)
+**MATLAB** (R2024a or later, for the figure scripts: uses `readmatrix` and `tiledlayout`)
 
 ## Usage
 
